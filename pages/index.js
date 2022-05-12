@@ -8,9 +8,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Freedom Average</title>
-        <meta name="description" content="Freedom Average" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Freedom Over Average</title>
       </Head>
 
       <Layout>
