@@ -22,7 +22,7 @@ COPY --from=builder /app/.next ./.next
 EXPOSE 3001
 
 ## Development
-CMD npm run dev -- -p 3001
+#CMD npm run dev -- -p 3001
 
 ## Production
-#CMD ["pm2-runtime", "start", "npm", "name", "fa", "--", "start", "--", "-p", "3001"]
+CMD ["pm2-runtime", "start", "npm", "name", "fa", "--", "start", "--", "-p", "3001"]
